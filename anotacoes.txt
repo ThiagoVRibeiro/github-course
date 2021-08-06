@@ -1,0 +1,23 @@
+Guarda suas informações em 
+Git Config - do sistema como um todo
+Git config - do usuário
+Git config - do projeto
+
+
+Configurar usuário
+git config --global user.name "Thiago Ribeiro"
+git config --global user.email "thvinicius1@gmail.com"
+
+Definir Editor
+git config --global core.editor s (sendo o s de sublime, mas pode usar o vim)
+
+Saber o valor do dado digitado
+
+git config user.name
+
+Inicializar o repositório
+
+
+GIT HUB
+Tem que executar git init pra ligar o git
+Teste
