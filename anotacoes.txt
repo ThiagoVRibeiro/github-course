@@ -21,3 +21,11 @@ Inicializar o repositório
 GIT HUB
 Tem que executar git init pra ligar o git
 Teste
+
+Comandos utilizados
+git init
+git remote add origin git@github.com:ThiagoVRibeiro/github-course.git
+git commit -m "anotacoes.txt"
+git push -u origin master
+git status
+
