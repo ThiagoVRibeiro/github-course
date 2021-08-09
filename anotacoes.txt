@@ -28,4 +28,46 @@ git remote add origin git@github.com:ThiagoVRibeiro/github-course.git
 git commit -m "anotacoes.txt"
 git push -u origin master
 git status
+git commit -am "Adicionado lista de comandos do github"
 
+ - Clonar repositório
+ g clone endereço nomedorepositorionovoclonado
+ 
+  - Fazendo Fork - Contribuir com um projeto
+ Clica no botão de Fork - 
+ 
+ O que é branch?
+ É o ponteiro móvel que leva um comit.
+ Cada vez que faz um comit ele gera uma hash e cada hash tem um snapshot, o branch aponta para o commit.
+ O primeiro branch chama master, é possível criar um branch apontando para outro commit.
+ 
+ Por que usar o branch?
+ Pode modificar arquivo sem alterar o principal(master), em equipe eu corrijo um bug sem alterar o principal.
+ Pode criar e apagar o banch de maneira rápida.
+ Múltiplas pessoas trabalhando
+ Evita conflitos no arquivo principal
+ 
+ 
+ Criar branch
+ git checkout -b testing
+ 
+ listar branch
+ git branch
+ 
+ navegar no branch
+ git checkout testing
+ 
+ apagar branch 
+ git branch -D testing
+ 
+ 
+União do branches 
+ Merge
+ Operacão não destrutiva, não destroi o histório, ele cria um novo commit. Ele irá precisa de um commit extra
+ 
+ 
+ Rebase
+ Evita commit extra, tem histório linear, perde a ordem cronológica 
+ 
+ Gitignore
+ 
